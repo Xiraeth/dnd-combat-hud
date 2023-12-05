@@ -77,20 +77,6 @@ function addAlly() {
 	</div>
 	`;
 	combatContainer.insertAdjacentHTML('beforeend', markup);
-	inputFields = document.querySelector("");
-	
-	inputFields.forEach(field => {
-	field.addEventListener("blur", e => {
-		const valueEl = field.parentElement.querySelector(".value");
-		const number = field.value;
-		
-		if (number == "") valueEl.textContent = 0;
-		else valueEl.textContent = number;
-		
-		valueEl.classList.toggle('hidden');
-		field.classList.toggle("hidden");
-	})
-})
 }
 
 function addEnemy() {
