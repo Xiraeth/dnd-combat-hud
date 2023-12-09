@@ -59,7 +59,7 @@ body {
 .userContainer {
   background-image: url("parchment_bg.png");
   padding: 10px;
-  height: 120px;
+  min-height: 120px;
   border-radius: 5px;
   margin-bottom: 15px;
 }
